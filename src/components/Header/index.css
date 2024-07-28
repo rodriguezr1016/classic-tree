@@ -56,3 +56,7 @@ ul a {
 .active a {
     color: rgb(0, 63, 4);
   }
+  .contact a {
+    color: white;
+    font-size: 24px;
+  }

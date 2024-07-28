@@ -45,10 +45,23 @@ export default function Contact () {
       <br></br>
       <input placeholder='Email' required type="email" name="user_email" value={formData.user_email} onChange={handleChange} />
       <br></br>
-       <textarea placeholder='Brief description about your project with phone number and address'name="message" value={formData.message} onChange={handleChange} />
+       <textarea placeholder='Provide a brief description about your project with a phone number and address'name="message" value={formData.message} onChange={handleChange} />
        <br />
       <input className='button'type="submit" value={sending ? 'Sending...':'Send'} />
     </form>
+    <div className='cts'>
+    <h2>We'd Love To Hear From You</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium consectetur at qui, eum, esse vel architecto modi, corporis laudantium quo incidunt dolores iure maxime cumque enim quia dolore aliquid.</p>
+    <div className='phone'>
+    <h2>Classic Tree Service</h2>
+    <a href="tel:+12096050373">(209)605-0373</a>
+    <div className="circle"></div>
+    <a href="tel:+12098742904">(209)874-2904</a>
+
+    </div>
+
+
+    </div>
     </div>
   );
 };

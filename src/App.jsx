@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx'
+import Footer from './components/Footer/index.jsx';
 function App() {
  
 
@@ -19,8 +20,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path='/contact' element={<Contact />}/>
         </Routes>
+        <Footer />
       </div>
     </Router>
+    
   );
 }
 
