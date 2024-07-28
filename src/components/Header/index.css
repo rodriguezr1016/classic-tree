@@ -23,6 +23,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 .bname {
     padding-top: 30px;

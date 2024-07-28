@@ -8,8 +8,7 @@ const Header = () => {
     <header>
       <div className='header'>
       <button className='contact'>
-        Call now! <br />
-        Contact Number- (209)-605-0373
+        Call now! <br /> (209)-605-0373 Or (209)874-2904
       </button>
       <Link to='/'>
         <h1 className='bname'>Classic Tree Service</h1>
