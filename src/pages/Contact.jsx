@@ -51,7 +51,7 @@ export default function Contact () {
     </form>
     <div className='cts'>
     <h2>We'd Love To Hear From You</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium consectetur at qui, eum, esse vel architecto modi, corporis laudantium quo incidunt dolores iure maxime cumque enim quia dolore aliquid.</p>
+    <p>Here at Classic Tree Service we want to hear back from you. If you have any questions, feel free to reach out to us at any time. We are here to help you!</p>
     <div className='phone'>
     <h2>Classic Tree Service</h2>
     <a href="tel:+12096050373">(209)605-0373</a>
