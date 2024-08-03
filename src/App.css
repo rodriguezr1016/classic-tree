@@ -1,12 +1,14 @@
 /*home page css */
-
+img {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
 .hidden {
     color: black;
     width: 100%;
     padding: 0px 0 100px 0;
     text-align: center;
 }
-@media  screen and (min-width:561px) {
+@media  screen and (min-width:731px) {
     .hidden {
         display: none;
 
@@ -33,7 +35,8 @@
 }
 .service img {
     width: 75%;
-    height:auto
+    height:auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 .service h2 {
     width: 100%;

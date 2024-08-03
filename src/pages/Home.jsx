@@ -35,7 +35,8 @@ const Home = () => {
         </div>
         <h1>Services</h1>
       <div className="services">
-        <div>
+        <div className='service'>
+          <img src="/trimming.jpg" alt="trimming" />
           <h2>
             Trimming
           </h2>
@@ -45,7 +46,7 @@ const Home = () => {
 
         </div>
         <div className='service'>
-          <img src="/removalcopy.jpg" alt="removal" />
+          <img src="/removal.jpg" alt="removal" />
           <h2>Removal</h2>
           <p>Tired of a certain tree? We can take care of that for you too. With the use of ropes and pulleys, we'll make sure the job gets done quickly and safely. Along with this service, we also provide stump grinding. After we're done, you'll hardly even notice there once was a tree there.</p>
         </div>

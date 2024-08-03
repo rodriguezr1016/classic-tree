@@ -13,3 +13,11 @@ body {
     padding: 10px 50px;
   }
 }
+@media screen and (max-width:500px) {
+  body {
+    padding: 10px 20px;
+  }
+  .contact, .contact a {
+    font-size: 20px;
+  }
+}
